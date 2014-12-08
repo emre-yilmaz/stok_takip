@@ -1,6 +1,5 @@
 INDEX VERSION 1.127+C:\Users\Emre YILMAZ\Documents\GitHub\stok_takip\.metadata\.plugins\org.eclipse.jdt.core
 834584462.index
-699848081.index
 1065832147.index
 1028199574.index
 3991718231.index
