@@ -6,6 +6,7 @@ import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+import javax.swing.JButton;
 
 public class Ana_ekran extends JFrame {
 
@@ -18,7 +19,7 @@ public class Ana_ekran extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					emre frame = new emre();
+					Ana_ekran frame = new Ana_ekran();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -35,8 +36,11 @@ public class Ana_ekran extends JFrame {
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
-		contentPane.setLayout(new BorderLayout(0, 0));
 		setContentPane(contentPane);
+		contentPane.setLayout(null);
+		
+		JButton btnNewButton = new JButton("New button");
+		btnNewButton.setBounds(38, 55, 89, 23);
+		contentPane.add(btnNewButton);
 	}
-
 }

@@ -7,7 +7,7 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 
-public class Ana_ekran extends JFrame {
+public class emre extends JFrame {
 
 	private JPanel contentPane;
 
@@ -30,7 +30,7 @@ public class Ana_ekran extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public Ana_ekran() {
+	public emre() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
 		contentPane = new JPanel();
